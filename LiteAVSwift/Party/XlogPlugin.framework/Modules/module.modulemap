@@ -1,0 +1,6 @@
+framework module XlogPlugin {
+  umbrella header "XlogPlugin.h"
+
+  export *
+  module * { export * }
+}
