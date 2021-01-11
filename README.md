@@ -30,5 +30,5 @@ $ pod install
 ## 配置
 ```bash
 $ 填写你的sdkappid和secretKey->GenerateTestUserSig.swift
-$ 填写移动直播证书,并注意bundleId是否匹配
+$ 填写移动直播证书,并注意bundleId是否匹配->AppDelegate.swift
 ```
