@@ -68,5 +68,9 @@ $ 填写移动直播证书,并注意bundleId是否匹配->AppDelegate.swift
 ```
 
 ## 参考
+```bash
 移动直播:https://cloud.tencent.com/document/product/454
 实时音视频:https://cloud.tencent.com/document/product/647
+```
+
+
