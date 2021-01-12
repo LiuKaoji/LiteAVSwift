@@ -1,7 +1,7 @@
 ## LiteAVSwift
 
 ## 简介
-LiteAVSDK的自采集和渲染,CDN播放
+LiteAVSDK的自采集和渲染,CDN播放[Objective-C点这里](https://github.com/LiuKaoji/TrtcObjc)
 ```none
 ┌──────────────┐    ┌──────────────┐
 │   Capture    ├────▶   filter     │
