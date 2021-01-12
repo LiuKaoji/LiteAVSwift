@@ -17,15 +17,15 @@
 ```
 
 ## 移动直播
-* **移动直播自定义采集**: 通过采集+滤镜发送给移动直播
+* **[自定义采集](http://doc.qcloudtrtc.com/group__TXLivePush__ios.html#a6a34781b97eb91cf17773a6073c19ed2)**: 通过采集+滤镜发送给移动直播
 ```bash
-$ 移动直播_TXLivePush.h:
+$ TXLivePush.h:
 $ TXLivePushConfig.customModeType =  CUSTOM_MODE_VIDEO_CAPTURE;
 $ pusher.sendVideoSampleBuffer(sampleBuffer)
 ```
 * **[纹理预处理](http://doc.qcloudtrtc.com/group__TXVideoEditerListener__ios.html#a291f788c080dc4fb941ff5a955e249de)**: 移动直播的预处理
 ```bash
-$ 直播播放器_TXLivePush.h:
+$ TXLivePush.h:
 $ - (id<TXVideoCustomProcessDelegate>) videoProcessDelegate;
 $ -(void)onPreProcessTexture...
 ```
@@ -36,22 +36,22 @@ $ setupVideoWidget
 $ startPlay
 ```
 ## 实时音视频
-* **[实时音视频自定义采集](http://doc.qcloudtrtc.com/group__TRTCCloud__ios.html#a76e8101153afc009f374bc2b242c6831)**: 通过采集+滤镜发送给移动直播/实时音视频
+* **[自定义采集](http://doc.qcloudtrtc.com/group__TRTCCloud__ios.html#a76e8101153afc009f374bc2b242c6831)**: 通过采集+滤镜发送给移动直播/实时音视频
 ```bash
-$ 实时音视频_TRTCCloud.h:
+$ TRTCCloud.h:
 $ - (void)enableCustomVideoCapture:(BOOL)enable;///开启实时音视频自定义视频采集
 $ - (void)sendCustomVideoData:(TRTCVideoFrame *)frame{}///发送TRTCVideoFrame
 ```
 
 * **[美颜老接口](http://doc.qcloudtrtc.com/group__TRTCCloud__ios.html#aba3d309645d27304b6d4ea31b21a4cda)**: 实时音视频老版本渲染回调,支持数据回填实现美颜/滤镜 
 ```bash
-$ 实时音视频_TRTCCloud.h:
+$ TRTCCloud.h:
 $ setLocalVideoRenderDelegate 
 $ -(void)onRenderVideoFrame:(TRTCVideoFrame *)frame userId:(NSString *)userId streamType:(TRTCVideoStreamType)streamType{}
 ```
 * **[美颜新接口](http://doc.qcloudtrtc.com/group__TRTCCloud__ios.html#a2f73c33b1010a63bd3a06e639b3cf348)**: 实时音视频8.0+数据回调,支持数据回填实现美颜/滤镜,性能更好
 ```bash
-$ 实时音视频_TRTCCloud.h:
+$ TRTCCloud.h:
 $ setLocalVideoProcessDelegete 
 $ - (uint32_t)onProcessVideoFrame:(TRTCVideoFrame * _Nonnull)srcFrame dstFrame:(TRTCVideoFrame * _Nonnull)dstFrame{}
 ```
