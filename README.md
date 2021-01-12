@@ -1,7 +1,7 @@
 ## LiteAVSwift
 
 ## 简介
-用于简单演示LiteAVSDK的自采集和渲染,CDN播放
+LiteAVSDK的自采集和渲染,CDN播放
 ```none
 ┌──────────────┐    ┌──────────────┐
 │   Capture    ├────▶   filter     │
