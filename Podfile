@@ -14,6 +14,8 @@ pod 'RxCocoa', '~> 5'
 pod 'RxDataSources', '~> 4.0'
 pod 'IQKeyboardManagerSwift'
 pod 'SwiftMessages'
+pod 'JXSegmentedView'
+pod 'EFAutoScrollLabel'
 
 pod 'TXLiteAVSDK_Professional', :podspec => 'http://pod-1252463788.cosgz.myqcloud.com/liteavsdkspec/TXLiteAVSDK_Professional.podspec'
 #pod 'TXLiteAVSDK_Professional', '~> 7.5.9301'

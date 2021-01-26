@@ -40,19 +40,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         //SDK Licence 初始化
         setuLiteAVSDK()
         
-        let finalB = GenerateTestUserSig.genTestUserSig("123")
-        debugPrint(finalB)
-        
         return true
     }
 
 
     func setuLiteAVSDK(){
         
-        ///直播证书==>https://cloud.tencent.com/document/product/454/34750
-        let licence = <#T##licence: String###>
-        let licenceKey = <#T##licenceKey: String###>
-        TXLiveBase.setLicenceURL(licence, key: licenceKey)
+        ///直播证书
+        TXLiveBase.setLicenceURL(licenceURL, key: licenceKey)
 
         #if arch(arm64)
             XlogManager.shared().setup {

@@ -39,7 +39,9 @@ public var groupData = [groupStruct("移动直播", [groupItem("自定义采集"
                        
                         groupStruct("实时音视频", [groupItem("自定采集", "CaptureVC"),
                                                  groupItem("美颜老接口", "RenderVC"),
-                                                 groupItem("美颜新接口", "VideoProcessVC")]),
+                                                 groupItem("美颜新接口", "VideoProcessVC"),
+                                                 groupItem("自定义歌词", "LyricsEnterVC")]),
                         
                         groupStruct("播放器测试",  [groupItem("直播播放器", "LivePlayerVC")])
 ]
+

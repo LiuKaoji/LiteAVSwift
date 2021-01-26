@@ -10,6 +10,18 @@
 		21E78D10CD7E4731AEE10C21 /* Pods_LiteAVSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BE04577F191CC58886EB5C /* Pods_LiteAVSwift.framework */; };
 		3607C9C225750E7100B60E6F /* LiteAVBeautyBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3607C9C125750E7100B60E6F /* LiteAVBeautyBaseVC.swift */; };
 		3607C9C6257510C200B60E6F /* UIViewController + LiteAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3607C9C5257510C200B60E6F /* UIViewController + LiteAV.swift */; };
+		36124B0925BEA684007E5AAE /* TXSDKLicence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124B0825BEA684007E5AAE /* TXSDKLicence.swift */; };
+		36124BE225BEF97F007E5AAE /* LRCParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BE125BEF97F007E5AAE /* LRCParser.swift */; };
+		36124BE625BF043E007E5AAE /* duoxingyun.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36124BE425BF043D007E5AAE /* duoxingyun.txt */; };
+		36124BE725BF043E007E5AAE /* duoxingyun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36124BE525BF043E007E5AAE /* duoxingyun.mp3 */; };
+		36124BE925BF05B1007E5AAE /* LyricsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BE825BF05B1007E5AAE /* LyricsVC.swift */; };
+		36124BEE25BFB027007E5AAE /* TRTCVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BEC25BFB027007E5AAE /* TRTCVideoView.swift */; };
+		36124BEF25BFB027007E5AAE /* TRTCVideoViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BED25BFB027007E5AAE /* TRTCVideoViewLayout.swift */; };
+		36124BF125BFB037007E5AAE /* TRTCEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BF025BFB037007E5AAE /* TRTCEnum.swift */; };
+		36124BF325BFB290007E5AAE /* TRTCRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BF225BFB290007E5AAE /* TRTCRoomView.swift */; };
+		36124BF925BFBA81007E5AAE /* RoomEnterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124BF825BFBA81007E5AAE /* RoomEnterVC.swift */; };
+		36124C0D25BFEE67007E5AAE /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124C0C25BFEE67007E5AAE /* RoomVC.swift */; };
+		36124C3725C004AB007E5AAE /* LyricsEnterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36124C3625C004AB007E5AAE /* LyricsEnterVC.swift */; };
 		3613D5AA257A2D5800A05EFA /* LiveCaptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3613D5A9257A2D5800A05EFA /* LiveCaptureVC.swift */; };
 		3613D5B5257A50FA00A05EFA /* LiveQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3613D5B3257A50FA00A05EFA /* LiveQRCodeVC.swift */; };
 		3642F31225884F6C000272EA /* VideoProcessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3642F31125884F6C000272EA /* VideoProcessVC.swift */; };
@@ -103,6 +115,18 @@
 		06BE04577F191CC58886EB5C /* Pods_LiteAVSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiteAVSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3607C9C125750E7100B60E6F /* LiteAVBeautyBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteAVBeautyBaseVC.swift; sourceTree = "<group>"; };
 		3607C9C5257510C200B60E6F /* UIViewController + LiteAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + LiteAV.swift"; sourceTree = "<group>"; };
+		36124B0825BEA684007E5AAE /* TXSDKLicence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXSDKLicence.swift; sourceTree = "<group>"; };
+		36124BE125BEF97F007E5AAE /* LRCParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRCParser.swift; sourceTree = "<group>"; };
+		36124BE425BF043D007E5AAE /* duoxingyun.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = duoxingyun.txt; sourceTree = "<group>"; };
+		36124BE525BF043E007E5AAE /* duoxingyun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = duoxingyun.mp3; sourceTree = "<group>"; };
+		36124BE825BF05B1007E5AAE /* LyricsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsVC.swift; sourceTree = "<group>"; };
+		36124BEC25BFB027007E5AAE /* TRTCVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTCVideoView.swift; sourceTree = "<group>"; };
+		36124BED25BFB027007E5AAE /* TRTCVideoViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTCVideoViewLayout.swift; sourceTree = "<group>"; };
+		36124BF025BFB037007E5AAE /* TRTCEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTCEnum.swift; sourceTree = "<group>"; };
+		36124BF225BFB290007E5AAE /* TRTCRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTCRoomView.swift; sourceTree = "<group>"; };
+		36124BF825BFBA81007E5AAE /* RoomEnterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomEnterVC.swift; sourceTree = "<group>"; };
+		36124C0C25BFEE67007E5AAE /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
+		36124C3625C004AB007E5AAE /* LyricsEnterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsEnterVC.swift; sourceTree = "<group>"; };
 		3613D5A9257A2D5800A05EFA /* LiveCaptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCaptureVC.swift; sourceTree = "<group>"; };
 		3613D5B3257A50FA00A05EFA /* LiveQRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveQRCodeVC.swift; sourceTree = "<group>"; };
 		3642F31125884F6C000272EA /* VideoProcessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessVC.swift; sourceTree = "<group>"; };
@@ -198,6 +222,7 @@
 		3607C9BC25750B4000B60E6F /* TRTC */ = {
 			isa = PBXGroup;
 			children = (
+				36124BE325BF0421007E5AAE /* Lyrics */,
 				65FB66EC2518D33700C0E525 /* TRTCConst.swift */,
 				6592B476255A55CA003727EA /* Capture */,
 				6592B477255A5625003727EA /* Filter_old */,
@@ -224,6 +249,32 @@
 				3613D5A9257A2D5800A05EFA /* LiveCaptureVC.swift */,
 			);
 			path = LiveCapture;
+			sourceTree = "<group>";
+		};
+		36124BE325BF0421007E5AAE /* Lyrics */ = {
+			isa = PBXGroup;
+			children = (
+				36124C0B25BFEE18007E5AAE /* Room */,
+				36124C3625C004AB007E5AAE /* LyricsEnterVC.swift */,
+				36124BE825BF05B1007E5AAE /* LyricsVC.swift */,
+				36124BE125BEF97F007E5AAE /* LRCParser.swift */,
+				36124BE525BF043E007E5AAE /* duoxingyun.mp3 */,
+				36124BE425BF043D007E5AAE /* duoxingyun.txt */,
+			);
+			path = Lyrics;
+			sourceTree = "<group>";
+		};
+		36124C0B25BFEE18007E5AAE /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				36124BEC25BFB027007E5AAE /* TRTCVideoView.swift */,
+				36124BF025BFB037007E5AAE /* TRTCEnum.swift */,
+				36124BF225BFB290007E5AAE /* TRTCRoomView.swift */,
+				36124BED25BFB027007E5AAE /* TRTCVideoViewLayout.swift */,
+				36124BF825BFBA81007E5AAE /* RoomEnterVC.swift */,
+				36124C0C25BFEE67007E5AAE /* RoomVC.swift */,
+			);
+			path = Room;
 			sourceTree = "<group>";
 		};
 		3642F30F25884C33000272EA /* Filter_new */ = {
@@ -323,6 +374,7 @@
 		658DB21E2445638000EB0A14 /* LiteAVSwift */ = {
 			isa = PBXGroup;
 			children = (
+				36124B0825BEA684007E5AAE /* TXSDKLicence.swift */,
 				E49CA78C251F3A580015848A /* GenerateTestUserSig.swift */,
 				E4EE497A245F1DC900A59429 /* Extention */,
 				658DB235244564A600EB0A14 /* Public */,
@@ -518,6 +570,8 @@
 				3683D81C259984AD00501317 /* LUT.bundle in Resources */,
 				366B0ADD2599BAAD0099BAEA /* VideoEncEx.plist in Resources */,
 				658DB2342445647900EB0A14 /* LaunchScreen.storyboard in Resources */,
+				36124BE625BF043E007E5AAE /* duoxingyun.txt in Resources */,
+				36124BE725BF043E007E5AAE /* duoxingyun.mp3 in Resources */,
 				3683D81E259984AD00501317 /* LUTPreview.bundle in Resources */,
 				652E59982513A1BF00756140 /* Live.bundle in Resources */,
 			);
@@ -579,6 +633,7 @@
 				3683D81D259984AD00501317 /* LUTCIFilter.swift in Sources */,
 				E463E800244ABFE500523CB7 /* ConstrainArrayDSL.swift in Sources */,
 				6592B48D255A7A5A003727EA /* CaptureVC.swift in Sources */,
+				36124BEF25BFB027007E5AAE /* TRTCVideoViewLayout.swift in Sources */,
 				6562DCDC2521D1FC009FAB06 /* UIView + Shake.swift in Sources */,
 				E4266DCA25171680007F45AA /* LiveDebugPlayer.swift in Sources */,
 				65FB66E52518948500C0E525 /* LiveStrategySelector.swift in Sources */,
@@ -595,14 +650,22 @@
 				6592373A251B5E6100791DAF /* GLView.swift in Sources */,
 				652E599A251448AA00756140 /* QRCodeTool.swift in Sources */,
 				6592373E251B70B600791DAF /* LiveFloatWindow.swift in Sources */,
+				36124C3725C004AB007E5AAE /* LyricsEnterVC.swift in Sources */,
 				E455028925697ACC0046137A /* MainModel.swift in Sources */,
+				36124BF325BFB290007E5AAE /* TRTCRoomView.swift in Sources */,
 				3642F31925885748000272EA /* Shaders.swift in Sources */,
+				36124B0925BEA684007E5AAE /* TXSDKLicence.swift in Sources */,
 				E4266DC325160B80007F45AA /* QRSCanBorder.swift in Sources */,
+				36124C0D25BFEE67007E5AAE /* RoomVC.swift in Sources */,
+				36124BF925BFBA81007E5AAE /* RoomEnterVC.swift in Sources */,
 				E463E7FE244ABFE500523CB7 /* ConstrainArray+Extension.swift in Sources */,
 				3642F31225884F6C000272EA /* VideoProcessVC.swift in Sources */,
 				652E599F25144BF100756140 /* QRCapture.swift in Sources */,
 				36966033257DC93100961C46 /* LiteAVBufferOutput.swift in Sources */,
 				365B9F842595B20C00E1D16F /* LiteAVMessageView.swift in Sources */,
+				36124BE925BF05B1007E5AAE /* LyricsVC.swift in Sources */,
+				36124BEE25BFB027007E5AAE /* TRTCVideoView.swift in Sources */,
+				36124BF125BFB037007E5AAE /* TRTCEnum.swift in Sources */,
 				E4266DE225178A22007F45AA /* MainView.swift in Sources */,
 				E49CA797251F7F3E0015848A /* UnsafePointer + converter.swift in Sources */,
 				3683D83B2599858E00501317 /* UIView + Border.swift in Sources */,
@@ -612,6 +675,7 @@
 				65FB66ED2518D33700C0E525 /* TRTCConst.swift in Sources */,
 				3607C9C225750E7100B60E6F /* LiteAVBeautyBaseVC.swift in Sources */,
 				3683D81F259984AD00501317 /* LUTSelectView.swift in Sources */,
+				36124BE225BEF97F007E5AAE /* LRCParser.swift in Sources */,
 				3613D5B5257A50FA00A05EFA /* LiveQRCodeVC.swift in Sources */,
 				E463E7FF244ABFE500523CB7 /* ConstrainArray.swift in Sources */,
 				E4266DD525172FA4007F45AA /* QRCodeGenerator.swift in Sources */,
