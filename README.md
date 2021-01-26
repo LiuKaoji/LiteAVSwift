@@ -56,6 +56,13 @@ $ setLocalVideoProcessDelegete
 $ - (uint32_t)onProcessVideoFrame:(TRTCVideoFrame * _Nonnull)srcFrame dstFrame:(TRTCVideoFrame * _Nonnull)dstFrame{}
 ```
 
+* **[自定义歌词](http://doc.qcloudtrtc.com/group__TRTCCloud__ios.html#a6de26e5efddf899d31158e4d48f17c02)**: 发送SEI信息
+```bash
+$ TRTCCloud.h:
+$ - (BOOL)sendSEIMsg:(NSData *)data repeatCount:(int)repeatCount 
+```
+
+
 ## 安装
 ```bash
 $ pod install
