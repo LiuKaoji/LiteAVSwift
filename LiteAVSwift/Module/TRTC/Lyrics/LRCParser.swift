@@ -66,7 +66,7 @@ class LRCParser: NSObject {
                 intervalFirst = intervalFirst! * -1
             }
             
-            let item = LRCItem.init(lrc, UInt(intervalFirst!))
+            let item = LRCItem.init(lrc, UInt(intervalFirst! * 1000))
             
             lRCArray.append(item)
         }
