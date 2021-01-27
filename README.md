@@ -60,6 +60,7 @@ $ - (uint32_t)onProcessVideoFrame:(TRTCVideoFrame * _Nonnull)srcFrame dstFrame:(
 ```bash
 $ TRTCCloud.h:
 $ - (BOOL)sendSEIMsg:(NSData *)data repeatCount:(int)repeatCount 
+$ 主播播放 观众观看
 ```
 
 
@@ -71,7 +72,7 @@ $ pod install
 ## 配置
 ```bash
 $ 填写你的sdkappid和secretKey->GenerateTestUserSig.swift
-$ 填写移动直播证书,并注意bundleId是否匹配->AppDelegate.swift
+$ 填写移动直播证书,并注意bundleId是否匹配->TXSDKLicence.swift
 ```
 
 ## 参考
